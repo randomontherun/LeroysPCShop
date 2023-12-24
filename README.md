@@ -16,8 +16,16 @@ Line 12: Added text description.
 #### AboutController.java
 Created AboutController.java<br />
 Line 7: Signified class was a controller with "@Controller".<br />
-Line 10: Added getAbout() method and mapped the About page to the website using "@GetMapping"
+Line 10: Added getAbout() method and mapped the About page to the website using "@GetMapping".<br />
+Line 15: Added link to mainscreen.
+#### mainscreen.html
+Line 89: Added a button that links to the "about" page
 ### Part E
+#### BootStrapData.java
+Line 43: Added "CPU" outsourced part
+
+Line __: Added "gamingPC" product
+Line __: Added "workstation" product
 
 ### Part F
 

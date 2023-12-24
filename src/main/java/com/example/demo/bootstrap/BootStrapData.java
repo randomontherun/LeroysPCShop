@@ -39,33 +39,41 @@ public class BootStrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-       /*
-        OutsourcedPart o= new OutsourcedPart();
-        o.setCompanyName("Western Governors University");
-        o.setName("out test");
-        o.setInv(5);
-        o.setPrice(20.0);
-        o.setId(100L);
-        outsourcedPartRepository.save(o);
-        OutsourcedPart thePart=null;
-        List<OutsourcedPart> outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
-        for(OutsourcedPart part:outsourcedParts){
-            if(part.getName().equals("out test"))thePart=part;
-        }
 
-        System.out.println(thePart.getCompanyName());
-        */
+//        OutsourcedPart CPU= new OutsourcedPart();
+//        CPU.setCompanyName("Leroy's Computer Store");
+//        CPU.setName("CPU");
+//        CPU.setInv(5);
+//        CPU.setPrice(20.0);
+//        CPU.setId(100L);
+//        outsourcedPartRepository.save(CPU);
+//        OutsourcedPart thePart=null;
+//        List<OutsourcedPart> outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
+//        for(OutsourcedPart part:outsourcedParts){
+//            if(part.getName().equals("CPU"))thePart=part;
+//        }
+//
+//        System.out.println(thePart.getCompanyName());
+
+        /*
         List<OutsourcedPart> outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
         for(OutsourcedPart part:outsourcedParts){
             System.out.println(part.getName()+" "+part.getCompanyName());
         }
-
-        /*
-        Product bicycle= new Product("bicycle",100.0,15);
-        Product unicycle= new Product("unicycle",100.0,15);
-        productRepository.save(bicycle);
-        productRepository.save(unicycle);
         */
+
+//
+//        Product gamingPC= new Product("gaming PC",100.0,15);
+//        Product workstation= new Product("workstation",100.0,15);
+//        Product streamingPC= new Product("streaming  PC",100.0,15);
+//        Product budgetPC= new Product("budget PC",50.0,15);
+//        Product server= new Product("server",100.0,15);
+//        productRepository.save(gamingPC);
+//        productRepository.save(workstation);
+//        productRepository.save(streamingPC);
+//        productRepository.save(budgetPC);
+//        productRepository.save(server);
+
 
         System.out.println("Started in Bootstrap");
         System.out.println("Number of Products"+productRepository.count());
