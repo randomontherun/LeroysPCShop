@@ -20,12 +20,18 @@ Line 10: Added getAbout() method and mapped the About page to the website using 
 Line 15: Added link to mainscreen.
 #### mainscreen.html
 Line 89: Added a button that links to the "about" page
-### Part E
+### Part E: Add a sample inventory appropriate for your chosen store to the application
 #### BootStrapData.java
-Line 43: Added "CPU" outsourced part
-
-Line __: Added "gamingPC" product
-Line __: Added "workstation" product
+Line 43: Added "CPU" outsourced part.<br />
+Line 56: Added "motherboard" outsourced part.<br />
+Line 64: Added "RAM" outsourced part.<br />
+Line 72: Added "GPU" outsourced part.<br />
+Line 80: Added "PSU" outsourced part.<br />
+Line 98: Added "gamingPC" product.<br />
+Line 99: Added "workstation" product.<br />
+Line 100: Added "streamingPC" product.<br />
+Line 101: Added "budgetPC" product.<br />
+Line 102: Added "server" product.<br />
 
 ### Part F
 
