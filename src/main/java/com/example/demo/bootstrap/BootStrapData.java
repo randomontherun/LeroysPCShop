@@ -44,6 +44,8 @@ public class BootStrapData implements CommandLineRunner {
 //        CPU.setCompanyName("Leroy's Computer Store");
 //        CPU.setName("CPU");
 //        CPU.setInv(5);
+//        CPU.setInvMax(10);
+//        CPU.setInvMin(3);
 //        CPU.setPrice(20.0);
 //        CPU.setId(100L);
 //        outsourcedPartRepository.save(CPU);
@@ -57,6 +59,8 @@ public class BootStrapData implements CommandLineRunner {
 //        motherboard.setCompanyName("Leroy's Computer Store");
 //        motherboard.setName("Motherboard");
 //        motherboard.setInv(5);
+//        motherboard.setInvMax(10);
+//        motherboard.setInvMin(3);
 //        motherboard.setPrice(20.0);
 //        motherboard.setId(101L);
 //        outsourcedPartRepository.save(motherboard);
@@ -65,6 +69,8 @@ public class BootStrapData implements CommandLineRunner {
 //        RAM.setCompanyName("Leroy's Computer Store");
 //        RAM.setName("RAM");
 //        RAM.setInv(5);
+//        RAM.setInvMax(10);
+//        RAM.setInvMin(3);
 //        RAM.setPrice(20.0);
 //        RAM.setId(102L);
 //        outsourcedPartRepository.save(RAM);
@@ -73,6 +79,8 @@ public class BootStrapData implements CommandLineRunner {
 //        GPU.setCompanyName("Leroy's Computer Store");
 //        GPU.setName("GPU");
 //        GPU.setInv(5);
+//        GPU.setInvMax(10);
+//        GPU.setInvMin(3);
 //        GPU.setPrice(20.0);
 //        GPU.setId(103L);
 //        outsourcedPartRepository.save(GPU);
@@ -81,6 +89,8 @@ public class BootStrapData implements CommandLineRunner {
 //        motherboard.setCompanyName("Leroy's Computer Store");
 //        PSU.setName("PSU");
 //        PSU.setInv(5);
+//        PSU.setInvMax(10);
+//        PSU.setInvMin(3);
 //        PSU.setPrice(20.0);
 //        PSU.setId(104L);
 //        outsourcedPartRepository.save(PSU);
