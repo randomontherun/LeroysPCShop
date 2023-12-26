@@ -90,17 +90,29 @@ Line 6: Changed name of spring boot database to spring-boot-h2-db103<br /><br />
 #### OutsourcedPartForm.html:
 Line 25: Added input field for minimum inventory.<br />
 Line 28: Added input field for maximum inventory.<br /><br />
-#### InhousePartForm.html
+#### InhousePartForm.html:
 Line 24: Added input field for minimum inventory.<br />
 Line 25: Added input field for maximum inventory.<br /><br />
-#### AddOutsourcedPartController.java
+#### AddOutsourcedPartController.java:
 Line 44: Added conditional using the new enforceInv() method and BindingResult to<br />
 display an error message when a user tries to enter out-of-bounds inventory numbers<br /><br />
-#### AddInhousePartController.java
+#### AddInhousePartController.java:
 Line 43: Added conditional using the new enforceInv() method and BindingResult to<br />
 display an error message when a user tries to enter out-of-bounds inventory numbers<br />
 
-### Part H
+### Part H: Add validation for between or at the maximum and minimum fields
+#### AddOutsourcedPartController.java:
+Line 44: Commented out less specific error/error message.<br />
+Line 49: Added specific error/error message for falling below inventory minimum.<br />
+Line 54: Added specific error/error message for raising above inventory maximum.<br /><br />
+#### AddInhousePartController.java:
+Line 43: Commented out less specific error/error message.<br />
+Line 48: Added specific error/error message for falling below inventory minimum.<br />
+Line 53: Added specific error/error message for raising above inventory maximum.<br /><br />
+#### EnufPartsValidator.java:
+Line 36: Added to if statement to return false if adding a product will make parts fall below minimum.<br /><br />
+#### ValidEnufParts.Java
+Line 20: Changed error message to specifically mention part minimum.<br />
 
 ### Part I
 
