@@ -40,62 +40,62 @@ public class BootStrapData implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
 
-//        OutsourcedPart CPU= new OutsourcedPart();
-//        CPU.setCompanyName("Leroy's Computer Store");
-//        CPU.setName("CPU");
-//        CPU.setInv(3);
-//        CPU.setInvMax(10);
-//        CPU.setInvMin(3);
-//        CPU.setPrice(20.0);
-//        CPU.setId(100L);
-//        outsourcedPartRepository.save(CPU);
-//        OutsourcedPart thePart=null;
-//        List<OutsourcedPart> outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
-//        for(OutsourcedPart part:outsourcedParts){
-//            if(part.getName().equals("CPU"))thePart=part;
-//        }
-//
-//        OutsourcedPart motherboard= new OutsourcedPart();
-//        motherboard.setCompanyName("Leroy's Computer Store");
-//        motherboard.setName("Motherboard");
-//        motherboard.setInv(3);
-//        motherboard.setInvMax(10);
-//        motherboard.setInvMin(3);
-//        motherboard.setPrice(20.0);
-//        motherboard.setId(101L);
-//        outsourcedPartRepository.save(motherboard);
-//
-//        OutsourcedPart RAM= new OutsourcedPart();
-//        RAM.setCompanyName("Leroy's Computer Store");
-//        RAM.setName("RAM");
-//        RAM.setInv(3);
-//        RAM.setInvMax(10);
-//        RAM.setInvMin(3);
-//        RAM.setPrice(20.0);
-//        RAM.setId(102L);
-//        outsourcedPartRepository.save(RAM);
-//
-//        OutsourcedPart GPU= new OutsourcedPart();
-//        GPU.setCompanyName("Leroy's Computer Store");
-//        GPU.setName("GPU");
-//        GPU.setInv(3);
-//        GPU.setInvMax(10);
-//        GPU.setInvMin(3);
-//        GPU.setPrice(20.0);
-//        GPU.setId(103L);
-//        outsourcedPartRepository.save(GPU);
-//
-//        OutsourcedPart PSU= new OutsourcedPart();
-//        motherboard.setCompanyName("Leroy's Computer Store");
-//        PSU.setName("PSU");
-//        PSU.setInv(3);
-//        PSU.setInvMax(10);
-//        PSU.setInvMin(3);
-//        PSU.setPrice(20.0);
-//        PSU.setId(104L);
-//        outsourcedPartRepository.save(PSU);
-//
-//        System.out.println(thePart.getCompanyName());
+        OutsourcedPart CPU= new OutsourcedPart();
+        CPU.setCompanyName("Leroy's Computer Store");
+        CPU.setName("CPU");
+        CPU.setInv(3);
+        CPU.setInvMax(10);
+        CPU.setInvMin(3);
+        CPU.setPrice(20.0);
+        CPU.setId(100L);
+        outsourcedPartRepository.save(CPU);
+        OutsourcedPart thePart=null;
+        List<OutsourcedPart> outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
+        for(OutsourcedPart part:outsourcedParts){
+            if(part.getName().equals("CPU"))thePart=part;
+        }
+
+        OutsourcedPart motherboard= new OutsourcedPart();
+        motherboard.setCompanyName("Leroy's Computer Store");
+        motherboard.setName("Motherboard");
+        motherboard.setInv(3);
+        motherboard.setInvMax(10);
+        motherboard.setInvMin(3);
+        motherboard.setPrice(20.0);
+        motherboard.setId(101L);
+        outsourcedPartRepository.save(motherboard);
+
+        OutsourcedPart RAM= new OutsourcedPart();
+        RAM.setCompanyName("Leroy's Computer Store");
+        RAM.setName("RAM");
+        RAM.setInv(3);
+        RAM.setInvMax(10);
+        RAM.setInvMin(3);
+        RAM.setPrice(20.0);
+        RAM.setId(102L);
+        outsourcedPartRepository.save(RAM);
+
+        OutsourcedPart GPU= new OutsourcedPart();
+        GPU.setCompanyName("Leroy's Computer Store");
+        GPU.setName("GPU");
+        GPU.setInv(3);
+        GPU.setInvMax(10);
+        GPU.setInvMin(3);
+        GPU.setPrice(20.0);
+        GPU.setId(103L);
+        outsourcedPartRepository.save(GPU);
+
+        OutsourcedPart PSU= new OutsourcedPart();
+        motherboard.setCompanyName("Leroy's Computer Store");
+        PSU.setName("PSU");
+        PSU.setInv(3);
+        PSU.setInvMax(10);
+        PSU.setInvMin(3);
+        PSU.setPrice(20.0);
+        PSU.setId(104L);
+        outsourcedPartRepository.save(PSU);
+
+        System.out.println(thePart.getCompanyName());
 
         /*
         List<OutsourcedPart> outsourcedParts=(List<OutsourcedPart>) outsourcedPartRepository.findAll();
@@ -105,16 +105,16 @@ public class BootStrapData implements CommandLineRunner {
         */
 
 
-//        Product gamingPC= new Product("Gaming PC",100.0,15);
-//        Product workstation= new Product("Workstation",100.0,15);
-//        Product streamingPC= new Product("Streaming  PC",100.0,15);
-//        Product budgetPC= new Product("Budget PC",50.0,15);
-//        Product server= new Product("Server",100.0,15);
-//        productRepository.save(gamingPC);
-//        productRepository.save(workstation);
-//        productRepository.save(streamingPC);
-//        productRepository.save(budgetPC);
-//        productRepository.save(server);
+        Product gamingPC= new Product("Gaming PC",100.0,15);
+        Product workstation= new Product("Workstation",100.0,15);
+        Product streamingPC= new Product("Streaming  PC",100.0,15);
+        Product budgetPC= new Product("Budget PC",50.0,15);
+        Product server= new Product("Server",100.0,15);
+        productRepository.save(gamingPC);
+        productRepository.save(workstation);
+        productRepository.save(streamingPC);
+        productRepository.save(budgetPC);
+        productRepository.save(server);
 
 
         System.out.println("Started in Bootstrap");
