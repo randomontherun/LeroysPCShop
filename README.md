@@ -111,9 +111,12 @@ Line 48: Added specific error/error message for falling below inventory minimum.
 Line 53: Added specific error/error message for raising above inventory maximum.<br /><br />
 #### EnufPartsValidator.java:
 Line 36: Added to if statement to return false if adding a product will make parts fall below minimum.<br /><br />
-#### ValidEnufParts.Java
+#### ValidEnufParts.java:
 Line 20: Changed error message to specifically mention part minimum.<br />
 
-### Part I
+### Part I: Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package
+#### PartTest.java:
+Line 161: Added test for minimum inventory field.<br />
+Line 170: Added test for maximum inventory field.<br />
 
 ### Part J
