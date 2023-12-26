@@ -119,4 +119,5 @@ Line 20: Changed error message to specifically mention part minimum.<br />
 Line 161: Added test for minimum inventory field.<br />
 Line 170: Added test for maximum inventory field.<br />
 
-### Part J
+### Part J: Remove the class files for any unused validators in order to clean your code.
+Deleted DeletePartValidator.java because it is never used.
