@@ -53,11 +53,16 @@ Line 34: Return "buyerror" page if the product is not found.<br /><br />
 #### buysuccess.html:
 Created buysuccess.html<br />
 Line 5: Added "Buy Success" title.<br />
-Line 8: Added h1 message for successful purchase.<br /><br />
+Line 8: Added h1 message for successful purchase.<br />
+***Revision***<br />
+Line 9: Added link back to main page
+
 #### buyerror.html:
 Created buyerror.html<br />
 Line 5: Added "Buy Error" title.<br />
 Line 8: Added h1 message for purchase failure.<br />
+***Revision***<br />
+Line 9: Added link back to main page
 
 ### Part G:  Modify the parts to track maximum and minimum inventory
 #### Part.java:
